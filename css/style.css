@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-page{
+    height: 100vh;
+    background-image: url(../images/download\ \(4\).jfif);
+    background-size: 100% 100%;
+}
+
+
+/* father */
+.sec-2{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* هامش داخلي لضغط العناصر داخل الاب */
+    padding: 40px 0px;
+}
+
+/* son */
+.sec-2-item{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+    /* لابعاد العناصر عن بعضها خارجياً */
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec-2-item img{
+    width: 100%;
+    height: 75%;
+}
+
+
+
